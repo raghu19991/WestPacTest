@@ -9,10 +9,8 @@ The Reports folder contains the Junit report.
 1)Python 3.5 or higher  
 Latest versions can be downloaded from https://www.python.org/downloads/  
 2)Updated Browsers
+3)Adding <Python_dir>,<python_dir>/Lib to environment PATH variable. (if not already there)
 
-Note:: Make sure you select 'Add to Path' option while installation or you can manually add the folders
-<python_dir>
-<python_dir>/Lib to PATH variable in environment variables.
 
 # Installation
 1)Clone the Project usig git clone https://github.com/raghu19991/WestPacTest.git or using source tree.  
