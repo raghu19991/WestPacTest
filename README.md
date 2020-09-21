@@ -8,13 +8,19 @@ The Reports folder contains the Junit report.
 # Pre-requisites:
 1)Python 3.5 or higher  
 Latest versions can be downloaded from https://www.python.org/downloads/  
-2)Updated Browsers  
+2)Updated Browsers
+
+Note:: Make sure you select 'Add to Path' option while installation or you can manually add the folders
+<python_dir>
+<python_dir>/Lib to PATH variable in environment variables.
 
 # Installation
 1)Clone the Project usig git clone https://github.com/raghu19991/WestPacTest.git or using source tree.  
 2)In the root directory of the project(WestPacTest) run below command  
 pip install -r requirements.txt  
-3)Check if the drivers installed are compatable with the browser version otherwise please update the browsers or downgrade the drivers. Version specific drivers can be downloaded from https://chromedriver.chromium.org/downloads
+3)Download drivers (chromedriver.exe,geckodriver.exe) and put them in <python_dir>/Lib folder. Make sure that Lib folder is in PATH variable.
+  
+Check if the drivers installed are compatable with the browser version otherwise please update the browsers or downgrade the drivers. Version specific drivers can be downloaded from https://chromedriver.chromium.org/downloads and https://github.com/mozilla/geckodriver/releases
 
 # Basic Use:
 cd <root>/tests  ( cd to tests folder)
